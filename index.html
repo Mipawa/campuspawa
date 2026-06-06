@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CampusPawa</title>
+    <link rel="stylesheet"
+          href="css/style.css">
+</head>
+<script>
+    
+fetch("/feedback", {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+        name: name,
+        message: message
+    })
+})
+</script>
+
+<script src="app.js"></script>
+
+</script>
+
+<body>
+
+<section>
+
+    <div class="brand">
+
+        <img
+        src="static/images/logo.png"
+        class="logo">
+
+        <h1 class="brand-name">
+            CampusPawa
+        </h1>
+        <h2>
+            For Higher Learning Education in Tanzania
+        </h2>
+
+        <p class="tagline">
+            ★ Top students don't study hard,
+            they study here.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="hero">
+
+    <p class="hero-text">
+        Access quality university notes,
+        past papers, tutorials, online quizzes and courses all in
+        one place.
+
+    </p>
+    <div class="offer-box">
+
+        <strong>🎉 E A R L Y<hr>A D O P T E R S<hr>O F F E R</strong>
+
+        <br><br>
+        <span class="new-price">
+             20% OFF
+        </span>
+
+    </div>
+
+    <div class="download-container">
+
+        <button onclick="startDownload()" class="download-btn">
+            Download APK
+        </button>
+        <div id="status"></div>
+
+    </div>
+
+</section>
+
+<div class="launch-banner">
+
+    🚀 Limited Early Access Available
+
+    <br>
+
+    Be among the first students to
+    shape the future of CampusPawa
+    and lock in the discounted
+    subscription rate.
+
+</div>
+
+<div class="instructions">
+
+    <h2>
+        Installation Instructions
+    </h2>
+
+    <ol>
+
+        <li>
+            Download the APK.
+        </li>
+
+        <li>
+            Open the downloaded file.
+        </li>
+
+        <li>
+            If Android blocks installation,
+            tap Settings when prompted.
+        </li>
+
+        <li>
+            Enable
+            <strong>
+            Allow installation from
+            unknown sources
+            </strong>.
+        </li>
+
+        <li>
+            Return and continue installation.
+        </li>
+
+        <li>
+            Open CampusPawa and enjoy.
+        </li>
+
+    </ol>
+
+</div>
+
+
+<section class="features">
+
+    <div class="card">
+        <h3>Quality Notes</h3>
+        <p>
+            Access learning materials
+            anytime.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Solved Past Papers & Tutorials</h3>
+        <p>
+            Prepare effectively for exams.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Online Quizzes</h3>
+        <p>
+            Practice your understanding and grow your confidence.
+        </p>
+    </div>
+    <div class="card">
+        <h3>Online Certified Course</h3>
+        <p>
+            Learn from experts and get a certificate.
+        </p>
+    </div>
+    <div class='card'>
+        <strong>24/7</strong>
+        Study Access
+    </div>
+
+</section>
+
+
+<section class="feedback">
+
+    <h2>
+        Help Us Improve
+    </h2>
+
+    <p>
+        Share your suggestions,
+        comments or report issues.
+    </p>
+
+    <form>
+
+        <input
+        type="text"
+        id="name"
+        placeholder="Your name">
+
+        <textarea
+        id="message"
+        placeholder="Your feedback..."
+        required></textarea>
+
+        <button onclick="sendFeedback()" type="submit">
+            Send Feedback
+        </button>
+
+    </form>
+
+</section>
+
+<section class="universities">
+
+    <h2>
+        Trusted by Students From
+    </h2>
+
+    <div class="university-grid">
+
+        <div class="uni-card">
+            UDSM
+        </div>
+
+        <div class="uni-card">
+            UDOM
+        </div>
+
+        <div class="uni-card">
+            IFM
+        </div>
+
+        <div class="uni-card">
+            MUST
+        </div>
+
+    </div>
+
+    <p class="uni-note">
+        Join students from leading
+        Tanzanian universities who are
+        already discovering a smarter
+        way to learn.
+    </p>
+
+</section>
+
+
+<section class="contacts">
+
+    <h2>
+        Contact Us
+    </h2>
+
+    <p>
+        Need help? Reach out directly.
+    </p>
+
+    <div class="contact-links">
+
+        <a href="tel:+255760056941">
+
+            📞 Call Us
+
+        </a>
+
+        <a
+        href="https://wa.me/255760056941"
+        target="_blank">
+
+            💬 WhatsApp
+
+        </a>
+
+
+    </div>
+    <p>Email: samikepawa97@gmail.com</p>
+
+</section>
+
+
+<footer>
+
+    © 2026 CampusPawa
+
+    <br>
+
+    Empowering Students Through
+    Technology
+
+</footer>
+
+</body>
