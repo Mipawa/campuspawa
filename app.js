@@ -1,6 +1,6 @@
 
 
-const APK_LINK ="https://firebasestorage.googleapis.com/v0/b/campuspawa.appspot.com/o/CampusPawa.apk?alt=media&token=84b13307-93f6-483d-89e1-eb5d8f490997";
+const APK_LINK ="https://l1nq.com/ktoc9op";
 
 
 // -------------------
